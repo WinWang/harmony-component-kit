@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "discover",
+    "type": "shared",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true
+  }
+}

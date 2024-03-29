@@ -1,0 +1,100 @@
+{
+    "record" : 
+    [
+        {
+            "id" : "0x04000000",
+            "name" : "app_icon",
+            "type" : "media"
+        },
+        {
+            "id" : "0x04000001",
+            "name" : "app_name",
+            "type" : "string"
+        },
+        {
+            "id" : "0x04000002",
+            "name" : "flexible_item_border_radius",
+            "type" : "float"
+        },
+        {
+            "id" : "0x04000003",
+            "name" : "flexible_item_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x04000004",
+            "name" : "flexible_item_padding_left",
+            "type" : "float"
+        },
+        {
+            "id" : "0x04000005",
+            "name" : "flexible_item_padding_right",
+            "type" : "float"
+        },
+        {
+            "id" : "0x04000006",
+            "name" : "flexible_left_item_border_radius",
+            "type" : "float"
+        },
+        {
+            "id" : "0x04000007",
+            "name" : "flexible_left_item_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x04000008",
+            "name" : "flexible_left_item_width",
+            "type" : "float"
+        },
+        {
+            "id" : "0x04000009",
+            "name" : "flexible_right_item_border_radius",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0400000A",
+            "name" : "flexible_right_item_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0400000B",
+            "name" : "flexible_right_item_width",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0400000C",
+            "name" : "slider_width",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0400000D",
+            "name" : "flexible_background",
+            "type" : "color"
+        },
+        {
+            "id" : "0x0400000E",
+            "name" : "flexible_left_item",
+            "type" : "color"
+        },
+        {
+            "id" : "0x0400000F",
+            "name" : "flexible_right_item",
+            "type" : "color"
+        },
+        {
+            "id" : "0x04000010",
+            "name" : "slider_color_selected",
+            "type" : "color"
+        },
+        {
+            "id" : "0x04000011",
+            "name" : "slider_color_track",
+            "type" : "color"
+        },
+        {
+            "id" : "0x04000012",
+            "name" : "page_show",
+            "type" : "string"
+        }
+    ]
+}

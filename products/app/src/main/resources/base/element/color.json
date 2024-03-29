@@ -1,0 +1,60 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "grid_item_background",
+      "value": "#33182431"
+    },
+    {
+      "name": "grid_title_color",
+      "value": "#182431"
+    },
+    {
+      "name": "slider_color_selected",
+      "value": "#007DFF"
+    },
+    {
+      "name": "slider_color_track",
+      "value": "#33182431"
+    },
+    {
+      "name": "catalogue_list_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "catalogue_list_background",
+      "value": "#007DFF"
+    },
+    {
+      "name": "location_capability_can_use",
+      "value": "#182431"
+    },
+    {
+      "name": "location_capability_no_use",
+      "value": "#66182431"
+    },
+    {
+      "name": "responsive_layout_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "tab_text_active",
+      "value": "#007DFF"
+    },
+    {
+      "name": "tab_text_normal",
+      "value": "#182431"
+    },
+    {
+      "name": "adaptive_index_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "system_capabilities_background",
+      "value": "#F1F3F5"
+    }
+  ]
+}

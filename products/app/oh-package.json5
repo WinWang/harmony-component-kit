@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos/adaptiveLayout": "file:../../features/home",
+    "@ohos/responsiveLayout": "file:../../features/discover",
+    "@ohos/common": "file:../../common"
+  }
+}

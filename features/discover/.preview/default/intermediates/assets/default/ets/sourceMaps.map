@@ -1,0 +1,12 @@
+{
+  "features/discover/index.ets": {
+    "version": 3,
+    "file": "index.ets",
+    "sourceRoot": "",
+    "sources": [
+      "features/discover/index.ets"
+    ],
+    "names": [],
+    "mappings": ""
+  }
+}

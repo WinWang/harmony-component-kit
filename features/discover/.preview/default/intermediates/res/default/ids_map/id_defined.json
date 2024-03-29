@@ -1,0 +1,215 @@
+{
+    "record" : 
+    [
+        {
+            "id" : "0x03000000",
+            "name" : "app_icon",
+            "type" : "media"
+        },
+        {
+            "id" : "0x03000001",
+            "name" : "app_name",
+            "type" : "string"
+        },
+        {
+            "id" : "0x03000002",
+            "name" : "arrow_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000003",
+            "name" : "arrow_item_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000004",
+            "name" : "arrow_margin_left",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000005",
+            "name" : "arrow_width",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000006",
+            "name" : "grid_column_gap",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000007",
+            "name" : "grid_margin_left",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000008",
+            "name" : "grid_margin_right",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000009",
+            "name" : "grid_padding_bottom",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0300000A",
+            "name" : "grid_row_border_radius",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0300000B",
+            "name" : "grid_row_gap",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0300000C",
+            "name" : "grid_text_font_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0300000D",
+            "name" : "grid_text_padding_left",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0300000E",
+            "name" : "grid_text_top",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0300000F",
+            "name" : "tab_img_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000010",
+            "name" : "tab_img_width",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000011",
+            "name" : "tab_text_font_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000012",
+            "name" : "tab_text_lg_left",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000013",
+            "name" : "tab_text_lg_top",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000014",
+            "name" : "tab_text_md_left",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000015",
+            "name" : "tab_text_md_top",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000016",
+            "name" : "tab_text_sm_left",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000017",
+            "name" : "tab_text_sm_top",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000018",
+            "name" : "tab_text_xl_left",
+            "type" : "float"
+        },
+        {
+            "id" : "0x03000019",
+            "name" : "tab_text_xl_top",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0300001A",
+            "name" : "grid_item_background",
+            "type" : "color"
+        },
+        {
+            "id" : "0x0300001B",
+            "name" : "grid_title_color",
+            "type" : "color"
+        },
+        {
+            "id" : "0x0300001C",
+            "name" : "responsive_layout_background",
+            "type" : "color"
+        },
+        {
+            "id" : "0x0300001D",
+            "name" : "start_window_background",
+            "type" : "color"
+        },
+        {
+            "id" : "0x0300001E",
+            "name" : "system_capabilities_background",
+            "type" : "color"
+        },
+        {
+            "id" : "0x0300001F",
+            "name" : "tab_text_active",
+            "type" : "color"
+        },
+        {
+            "id" : "0x03000020",
+            "name" : "tab_text_normal",
+            "type" : "color"
+        },
+        {
+            "id" : "0x03000021",
+            "name" : "ic_public_back",
+            "type" : "media"
+        },
+        {
+            "id" : "0x03000022",
+            "name" : "ResponsiveLayoutItemAbility_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x03000023",
+            "name" : "ResponsiveLayoutItemAbility_label",
+            "type" : "string"
+        },
+        {
+            "id" : "0x03000024",
+            "name" : "grid_title_label",
+            "type" : "string"
+        },
+        {
+            "id" : "0x03000025",
+            "name" : "module_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x03000026",
+            "name" : "tab_name",
+            "type" : "string"
+        },
+        {
+            "id" : "0x03000027",
+            "name" : "ic_tabs_icon",
+            "type" : "media"
+        },
+        {
+            "id" : "0x03000028",
+            "name" : "ic_tabs_icon_selected",
+            "type" : "media"
+        },
+        {
+            "id" : "0x03000029",
+            "name" : "icon",
+            "type" : "media"
+        }
+    ]
+}

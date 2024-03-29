@@ -1,0 +1,110 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/winwang/.ohos/config/default_HarmonyKit_AwgRKMHBpv5HfCElrxLAvK3b6l9Z2b_1xWEIElLI498=.cer",
+          "storePassword": "0000001B16851EED3709237E5A009BAF75643235AF0BEEF1EA90C5139C67006BA6B31E3B78B679D13DCE2B",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B1F929864A5B8343D60D7F970D0B61BF71A8453F4F6655DC3166FFCF7E48C49B97ED411466C9AC9",
+          "profile": "/Users/winwang/.ohos/config/default_HarmonyKit_AwgRKMHBpv5HfCElrxLAvK3b6l9Z2b_1xWEIElLI498=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/winwang/.ohos/config/default_HarmonyKit_AwgRKMHBpv5HfCElrxLAvK3b6l9Z2b_1xWEIElLI498=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "app",
+      "srcPath": "./products/app",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "srcPath": "./common",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "srcPath": "./features/home",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "discover",
+      "srcPath": "./features/discover",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hot",
+      "srcPath": "./features/hot",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mine",
+      "srcPath": "./features/mine",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

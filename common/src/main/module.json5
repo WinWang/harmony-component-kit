@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "common",
+    "type": "shared",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true
+  }
+}

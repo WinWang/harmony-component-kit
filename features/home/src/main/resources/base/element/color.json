@@ -1,0 +1,24 @@
+{
+  "color": [
+    {
+      "name": "flexible_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "flexible_left_item",
+      "value": "#D1D3D6"
+    },
+    {
+      "name": "flexible_right_item",
+      "value": "#D1D3D6"
+    },
+    {
+      "name": "slider_color_selected",
+      "value": "#007DFF"
+    },
+    {
+      "name": "slider_color_track",
+      "value": "#33182431"
+    }
+  ]
+}

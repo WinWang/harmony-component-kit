@@ -1,0 +1,12 @@
+{
+  "features/home/index.ets": {
+    "version": 3,
+    "file": "index.ets",
+    "sourceRoot": "",
+    "sources": [
+      "features/home/index.ets"
+    ],
+    "names": [],
+    "mappings": ""
+  }
+}
