@@ -6,8 +6,10 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "@ohos/adaptiveLayout": "file:../../features/home",
-    "@ohos/responsiveLayout": "file:../../features/discover",
+    "@ohos/home": "file:../../features/home",
+    "@ohos/discover": "file:../../features/discover",
+    "@ohos/hot": "file:../../features/hot",
+    "@ohos/mine": "file:../../features/mine",
     "@ohos/common": "file:../../common"
   }
 }

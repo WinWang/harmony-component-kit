@@ -2,53 +2,30 @@
  * Common constants for all features.
  */
 export class CommonConstants {
-  /**
-   * Breakpoint sm.
-   */
+  // Breakpoint sm.
   static readonly BREAKPOINTS_SM_NAME: string = 'sm';
-
-  /**
-   * Breakpoint md.
-   */
+  //Breakpoint md.
   static readonly BREAKPOINTS_MD_NAME: string = 'md';
-
-  /**
-   * Breakpoint lg.
-   */
+  //Breakpoint lg.
   static readonly BREAKPOINTS_LG_NAME: string = 'lg';
-
-  /**
-   * Breakpoint xl.
-   */
+  //Breakpoint xl.
   static readonly BREAKPOINTS_XL_NAME: string = 'xl';
-
-  /**
-   * The break point value of sm device.
-   */
+  //The break point value of sm device.
   static readonly BREAKPOINTS_SM_SIZE: number = 0;
-
-  /**
-   * The break point value of md device.
-   */
+  //The break point value of md device.
   static readonly BREAKPOINTS_MD_SIZE: number = 600;
-
-  /**
-   * The break point value of lg device.
-   */
+  //The break point value of lg device.
   static readonly BREAKPOINTS_LG_SIZE: number = 840;
-
-  /**
-   * The break point value of xl device.
-   */
+  //The break point value of xl device.
   static readonly BREAKPOINTS_XL_SIZE: number = 1320;
-
-  /**
-   * Initialize device breakpoints.
-   */
+  //Initialize device breakpoints.
   static readonly BREAKPOINTS_INITIALIZE_NAME: string = 'md';
-
-  /**
-   * Initialize device breakpoint Id.
-   */
+  //Initialize device breakpoint Id.
   static readonly BREAKPOINT_ID_INITIALIZE_NAME: string = 'unknown';
+  //全宽
+  static readonly FULL_HEIGHT_PERCENT: string = "100%"
+  //全高
+  static readonly FULL_WIDTH_PERCENT: string = "100%"
+  //空串
+  static readonly EMPTY: string = ""
 }
