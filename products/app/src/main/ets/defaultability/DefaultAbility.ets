@@ -1,6 +1,6 @@
 import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { window } from '@kit.ArkUI';
-import { LogUtils } from '@ohos/common';
+import { KeyValueUtils, LogUtils } from '@ohos/common';
 import { AppApplicationInitManger } from '../utils/AppApplicationInitManager';
 import { ServiceProviderManager } from '../utils/ServiceProviderManager';
 
@@ -9,6 +9,8 @@ export default class DefaultAbility extends UIAbility {
     LogUtils.info('Ability onCreate');
     AppApplicationInitManger.getInstance().initAppApplication()
     ServiceProviderManager.getInstance().initServiceProvider()
+    KeyValueUtils.init(this.context)
+    KeyValueUtils.getString("test", "")
   }
 
   onDestroy(): void {

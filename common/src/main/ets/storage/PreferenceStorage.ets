@@ -1,14 +1,15 @@
 import { IKeyValue } from './IKeyValue';
 import { preferences } from '@kit.ArkData';
 import { CommonConstants } from '../constants/CommonConstants';
+import { common } from '@kit.AbilityKit';
 
-const PREFERENCES_NAME: string = 'gtjaqh_futures';
+export const PREFERENCES_NAME: string = 'harmony_kit_preferences';
 
 export class PreferenceStorage implements IKeyValue {
   private preferences: preferences.Preferences
 
-  constructor(preferenceName: string = PREFERENCES_NAME) {
-    this.preferences = preferences.getPreferencesSync(getContext(), { name: preferenceName })
+  constructor(preferenceName: string = PREFERENCES_NAME, context: common.UIAbilityContext) {
+    this.preferences = preferences.getPreferencesSync(context, { name: preferenceName })
   }
 
   getValueAsync<T>(key: string, defaultValue?: T): Promise<T | null> {

@@ -1,5 +1,7 @@
 export { LogUtils } from './src/main/ets/utils/LogUtils';
 
+export { KeyValueUtils } from "./src/main/ets/storage/KeyValueUtils"
+
 export { TabItem } from "./src/main/ets/model/TabItem"
 
 export { CommonConstants } from './src/main/ets/constants/CommonConstants'
